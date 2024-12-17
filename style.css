@@ -1,0 +1,176 @@
+/* Estilos básicos */
+
+/* Estilizando o container do menu */
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens igualmente */
+  }
+  
+  .item {
+    text-align: center; /* Centraliza o conteúdo de cada item */
+  }
+  
+  img {
+    width: auto; /* Ajuste o tamanho da imagem conforme necessário */
+  }
+
+main {
+    padding-bottom: 100px; /* Ajuste conforme necessário */
+}
+
+
+
+.logo-container {
+    position: left;
+    top: 0;
+    left: 0;
+    margin: 2px; /* Ajustar a margem conforme necessário */
+  }
+  
+  .logo-container img {
+    width: 30px; /* Ajustar o tamanho da imagem */
+  }
+
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Alinha os itens para a direita */
+    align-items: left; /* Alinha os itens verticalmente no centro */
+    background-color: #f0f0f0; /* Cor de fundo do menu */
+    padding: 10px;
+  }
+  
+  /* Estilizando os itens do menu */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    color: #333;
+    text-align: right;
+  }
+  
+  /* Estilos para a página inicial */
+  #home {
+    background-color: rgba(255, 255, 255, 0.76);
+    padding: 20px;
+  }
+  
+  /* Estilos para os botões */
+  button {
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.774);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+
+
+button:hover {
+    background-color: #45a049;
+}
+
+footer {
+    background-color: #333; /* Cinza escuro */
+    color: #fff;
+    text-align: center;
+    padding: 10;
+    font-family: Arial, sans-serif;
+    font-size: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .container {
+    display: flex; /* Transforma o container em um flex container */
+    justify-content: space-between; /* Cria espaço entre a imagem e o texto */
+  }
+  
+  .image {
+    margin-right: 20px; /* Adiciona uma margem à direita da imagem */
+  }
+
+  .header {
+    position: relative;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+}
+
+.header-image {
+    width: 100%; /* Ajusta a largura da imagem para ocupar toda a largura do contêiner */
+    height: 450px; /* Mantém a proporção da imagem */
+}
+
+.header-title {
+    position: absolute;
+    top: 50%; /* Centraliza verticalmente */
+    left: 50%; /* Centraliza horizontalmente */
+    transform: translate(-50%, -50%); /* Ajusta a posição para o centro exato */
+    color: rgba(245, 236, 236, 0.945); /* Cor do texto */
+    font-size: 2.5em; /* Tamanho da fonte */
+    text-shadow: 2px 2px 8px rgba(101, 80, 128, 0.7); /* Sombra para melhor legibilidade */
+}
+
+nav ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0; /* Remove o padding padrão */
+}
+
+nav ul li {
+  display: inline; /* Exibe os itens do menu na mesma linha */
+  margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+  text-decoration: none; /* Remove o sublinhado dos links */
+  color: black; /* Cor padrão dos links */
+}
+
+nav ul li a.active {
+  color: rgb(90, 202, 127); /* Cor do link ativo */
+  font-weight: bold; /* Deixa o texto em negrito para destaque */
+}
+
+
+
+
+
+
+
+
+
+
